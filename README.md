@@ -10,7 +10,7 @@ To build a portfolio  using bootstrap.
 # Link to deployed site
 <!-- make a link to the deployed site --> 
 <!-- [What the user will see](the link to the deployed site) -->
-[my second homework](https://syamkanduri1.github.io/HW-Wireframe/)
+[my second homework](https://syamkanduri1.github.io/Bootstrap-Portfolio/)
 
 
 
@@ -24,7 +24,7 @@ To build a portfolio  using bootstrap.
 <!-- make a list of technology used -->
 <!-- what you used for this web app, like html css -->
 
-html, css
+html, css, Bootstrap
 <!-- 
 1. First ordered list item
 2. Another item
@@ -40,25 +40,29 @@ html, css
 <!-- if you want to put blockquotes use a > -->
 
 ```
-In the html file, I have coded..
-<aside id="right">
-    aside
-</aside>
-
-associated class in CSS file is
-
-#right {
-    float: left;
-    width: 25%;
-    margin-left: 5px;
-  }
+For example in the the html file, I have coded..
+        <nav class="navbar navbar-expand-lg">
+            <div class="mx-auto">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="navLink" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navLink" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navLink" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
 ```
 
 
 # Learning points
 <!-- Learning points where you would write what you thought was helpful -->
-Chrome DevTools tool was helpful to get job done; however, I ended up doing lot of hardcoding for now to get the job done. Need thorough reivew / guidance to help remove hardcodes.
+Bootstrap itself is a great learning!
 
 # Author 
 Syam Kanduri
